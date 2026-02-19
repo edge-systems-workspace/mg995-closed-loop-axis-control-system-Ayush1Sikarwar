@@ -23,7 +23,7 @@ void loop() {
         Serial.println(" degrees");
         delay(500); // Wait for the servo to reach the position
     }
-    for (int angle = 180; angle >= 0; angle -= 10) { // Move from 180 to 0 degrees
+    for (int angle = 180; angle >= 0; angle -= 10) { // Move from 180 to 0 degrees.
         myServo.write(angle);
         Serial.print("Angle: ");
         Serial.print(angle);
