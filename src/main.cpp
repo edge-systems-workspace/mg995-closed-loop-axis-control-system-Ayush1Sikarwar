@@ -14,6 +14,7 @@ void setup() {
     Serial.println("Servo initiate");
 }
 
+
 void loop() {
     // write your code here
     for (int angle = 0; angle <= 180; angle += 10) { // Move from 0 to 180 degrees
